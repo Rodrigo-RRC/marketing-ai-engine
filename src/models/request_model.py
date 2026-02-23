@@ -15,3 +15,6 @@ class ContentRequest(BaseModel):
     include_hashtags: bool
     include_emojis: bool
     keywords: str | None = None
+    strategic_goal: str = "Autoridade"
+
+    
