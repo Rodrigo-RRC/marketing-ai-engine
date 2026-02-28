@@ -1,7 +1,10 @@
 # Marketing AI Engine
 
 Motor estratégico de geração de conteúdo com arquitetura modular, controle estrutural de prompt e salvaguardas de coerência causal.
+```
+![Marketing AI Engine](src/images/initial_picture.png)
 
+```
 Deploy: [INSERIR LINK AQUI]
 
 ---
@@ -22,8 +25,6 @@ Diferente de geradores simples de texto, este projeto implementa:
 O foco não é apenas gerar texto, mas estruturar raciocínio estratégico dentro de uma arquitetura organizada.
 
 ---
-
-## 🏗️ Arquitetura
 
 ## 🏗️ Arquitetura do Projeto
 
