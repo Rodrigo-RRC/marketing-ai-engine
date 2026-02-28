@@ -1,10 +1,11 @@
 # Marketing AI Engine
 
 Motor estratégico de geração de conteúdo com arquitetura modular, controle estrutural de prompt e salvaguardas de coerência causal.
-```
-![Marketing AI Engine](src/images/initial_picture.png)
+---
 
-```
+<p align="center">
+  <img src="src/images/initial_picture.png" width="700">
+</p>
 Deploy: [INSERIR LINK AQUI]
 
 ---
