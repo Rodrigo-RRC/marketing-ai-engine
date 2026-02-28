@@ -4,7 +4,7 @@ Motor estratégico de geração de conteúdo com arquitetura modular, controle e
 ---
 
 <p align="center">
-  <img src="src/images/initial_picture.png" width="700">
+  <img src="src/images/initial_picture.png" width="1200">
 </p>
 Deploy: [INSERIR LINK AQUI]
 
