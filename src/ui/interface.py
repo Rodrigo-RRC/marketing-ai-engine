@@ -19,9 +19,9 @@ def render_interface(llm) -> None:
                 "Tema",
                 placeholder="Ex: Saúde mental no ambiente corporativo, Marketing para clínicas odontológicas..."
             )
-    platform = st.selectbox("Plataforma", ["Instagram", "LinkedIn", "Blog"])
+    platform = st.selectbox("Plataforma", ["Instagram", "LinkedIn", "Blog", "Facebook","E-mail" ])
     tone = st.selectbox("Tom", ["Informativo", "Inspirador", "Formal"])
-    audience = st.selectbox("Público", ["Geral", "Profissionais", "Empresas"])
+    audience = st.selectbox("Público", ["Geral", "Profissionais", "Empresas", "Apenas feminino", "Apenas masculino", "Unisex"])
     length = st.selectbox("Tamanho", ["Curto", "Médio", "Longo"])
 
     include_cta = st.checkbox("Incluir CTA")

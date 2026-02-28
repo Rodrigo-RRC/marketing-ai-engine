@@ -12,7 +12,11 @@ from ui.interface import render_interface
 
 def main() -> None:
 
-    st.set_page_config(page_title="Marketing AI Engine")
+    st.set_page_config(
+        page_title="Marketing AI Engine",
+        layout = "wide",
+        initial_sidebar_state="expanded"
+        )
 
     load_dotenv()
 

@@ -36,8 +36,9 @@ Adapte o conteúdo para cumprir esse objetivo:
 
 Obrigatório:
 - Linguagem técnica e assertiva.
-- Evite números específicos se não houver certeza absoluta.
-- Prefira referências institucionais gerais (ex: ONU, IPCC, OMS) sem citar valores exatos.
+- Utilize dados amplamente reconhecidos quando forem consenso público.
+- Quando usar números, priorize estatísticas consolidadas e não especulativas.
+- Caso não haja dado confiável, use linguagem qualitativa estratégica.
 - Não estabeleça relações causais sem base explícita.
 - Alta densidade informativa.
 
