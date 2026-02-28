@@ -70,7 +70,7 @@ ESTRUTURA OBRIGATÓRIA DE SAÍDA (use exatamente estes subtítulos em Markdown):
 
 {"## Chamada para Ação\n- Crie um CTA forte, específico e direcionado." if data.include_cta else ""}
 
-{"## Hashtags\n- Liste hashtags estratégicas e relevantes." if data.include_hashtags else ""}
+{"## Hashtags\n- Liste hashtags estratégicas e relevantes (Mínimo 5 Hashtags e no Máximo 10)." if data.include_hashtags else ""}
 
 Regras adicionais:
 {"Use emojis com moderação estratégica." if data.include_emojis else "Não use emojis."}
