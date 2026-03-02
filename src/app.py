@@ -7,9 +7,9 @@ st.write("APP INICIADO")
 
 from dotenv import load_dotenv
 
-from core.config import get_groq_api_key
-from services.llm_service import initialize_llm
-from ui.interface import render_interface
+from src.core.config import get_groq_api_key
+from src.services.llm_service import initialize_llm
+from src.ui.interface import render_interface
 
 
 def main() -> None:
