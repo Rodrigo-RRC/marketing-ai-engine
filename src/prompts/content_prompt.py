@@ -42,8 +42,8 @@ Obrigatório:
 - Não estabeleça relações causais sem base explícita.
 - Alta densidade informativa.
 
-ESTRUTURA OBRIGATÓRIA DE SAÍDA (use exatamente estes subtítulos em Markdown):
-
+ESTRUTURA OBRIGATÓRIA DE SAÍDA (Não precisao usar exatamente estes subtítulos em Markdown):
+__Lembre-se que você está elaborando conteúdo para ser usado com Marketing__
 # Título SEO Otimizado
 
 ## Introdução

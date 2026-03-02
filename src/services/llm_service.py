@@ -32,7 +32,7 @@ def generate_content(llm: ChatGroq, prompt: str) -> str:
             2. Sempre desenvolva argumentos com profundidade.
             3. Estruture o texto com subtítulos claros em Markdown.
             4. Integre palavras-chave naturalmente.
-            5. Use técnicas reais de persuasão.
+            5. Aplique técnicas reais de persuasão implicitamente, sem mencioná-las ou explicá-las.
             6. Evite frases genéricas como “você já parou para pensar”.
             7. O conteúdo deve parecer escrito por um especialista humano experiente.
 
@@ -42,8 +42,10 @@ def generate_content(llm: ChatGroq, prompt: str) -> str:
             9. Não misture problemas ambientais diferentes como se fossem consequência direta uns dos outros.
             10. Se não tiver certeza absoluta da relação causal, descreva como fenômenos correlacionados, não causais.
             11. Evite exageros ou afirmações científicas imprecisas.
-
-            O texto precisa ser estratégico, profissional, preciso e pronto para publicação.
+            12. Sempre que o tema envolver saúde, inclua mecanismos fisiológicos, hormonais ou clínicos específicos quando aplicável.
+            13. Evite percentuais genéricos como 30% ou 25% sem contextualização clara.
+            14. Prefira explicações mecanísticas a afirmações amplas.
+            15. Quando for utilizar números, percentuais, etc..., deixe claro a fonte ou as fontes de onde você o(s) extraiu 
             """),
         ("human", "{prompt}")
     ])
