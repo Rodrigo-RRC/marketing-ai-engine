@@ -31,6 +31,7 @@ O foco não é apenas gerar texto, mas estruturar raciocínio estratégico dentr
 
 ```
 marketing-ai-engine/
+├── runtime.txt
 ├── .gitignore
 ├── .env
 ├── .venv/                 (não versionado)
