@@ -3,6 +3,8 @@ Application entry point.
 """
 
 import streamlit as st
+st.write("APP INICIADO")
+
 from dotenv import load_dotenv
 
 from core.config import get_groq_api_key
