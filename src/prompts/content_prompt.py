@@ -54,50 +54,52 @@ ADAPTAÇÃO DE TOM
 O estilo do texto deve respeitar o tom selecionado:
 
 Informativo:
-foco em clareza, explicação objetiva e autoridade técnica.
+priorize clareza, explicação objetiva e autoridade técnica.
 
 Inspirador:
-linguagem mais envolvente, motivacional e emocional.
+utilize linguagem mais envolvente, reflexiva e motivacional.
 
 Formal:
-estilo mais institucional, analítico e profissional.
+adote estilo institucional, analítico e profissional.
 
 DIRETRIZES DE QUALIDADE
 
-• Escreva como um especialista no tema.  
-• Desenvolva ideias com profundidade.  
-• Evite superficialidade e frases genéricas.  
-• Priorize clareza, coerência e densidade informativa.  
+• Escreva como um especialista no tema.
+• Desenvolva ideias com profundidade e coerência.
+• Evite superficialidade e frases genéricas.
+• Priorize densidade informativa e clareza conceitual.
 
 Sempre que possível:
 
-• utilize dados amplamente reconhecidos  
-• mencione instituições ou fontes confiáveis  
-• evite afirmações sem fundamento claro  
+• utilize dados amplamente reconhecidos
+• mencione instituições, pesquisas ou estudos confiáveis
+• inclua exemplos concretos ou situações reais
+• explique mecanismos ou processos relevantes
+• evite afirmações vagas ou sem fundamento
 
 ESTRUTURA DO CONTEÚDO
 
 O conteúdo deve possuir:
 
-• um título forte e claro  
-• subtítulos naturais ao longo do texto  
-• parágrafos bem desenvolvidos  
-• progressão lógica das ideias  
+• um título claro e forte
+• subtítulos naturais ao longo do texto
+• parágrafos bem desenvolvidos
+• progressão lógica das ideias
 
 A organização pode incluir, quando fizer sentido:
 
 introdução do tema  
-contextualização e relevância  
-explicações ou análises aprofundadas  
-exemplos ou aplicações práticas  
-reflexões ou recomendações finais  
+contextualização e relevância atual  
+explicações ou análises mais profundas  
+exemplos práticos ou aplicações reais  
+implicações estratégicas ou reflexões finais  
 
 Evite estruturas rígidas ou previsíveis.
 
 SEO
 
 Utilize a palavra-chave principal de forma natural ao longo do texto.
-Evite repetição artificial.
+Evite repetição artificial e priorize fluidez na leitura.
 
 DIRETRIZES ADICIONAIS
 
@@ -105,10 +107,10 @@ DIRETRIZES ADICIONAIS
 
 Evite:
 
-• clichês  
-• generalizações vagas  
-• conteúdo superficial  
-• repetição excessiva  
+• clichês
+• frases genéricas
+• generalizações superficiais
+• conteúdo inflado sem valor informativo
 
 {cta_section}
 
