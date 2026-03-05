@@ -1,16 +1,19 @@
-"""
-Prompt builder module.
-"""
-
-from models.request_model import ContentRequest
-
-
 def build_content_prompt(data: ContentRequest) -> str:
     """
     Build structured and strategic marketing prompt.
     """
 
     primary_keyword = data.keywords if data.keywords else data.topic
+
+    cta_section = ""
+    if data.include_cta:
+        cta_section = "## Chamada para Ação\n- Crie um CTA forte, específico e direcionado."
+
+    hashtags_section = ""
+    if data.include_hashtags:
+        hashtags_section = "## Hashtags\n- Liste hashtags estratégicas e relevantes (Mínimo 5 Hashtags e no Máximo 10)."
+
+    emoji_rule = "Use emojis com moderação estratégica." if data.include_emojis else "Não use emojis."
 
     return f"""
 Objetivo:
@@ -42,7 +45,7 @@ Obrigatório:
 - Não estabeleça relações causais sem base explícita.
 - Alta densidade informativa.
 
-ESTRUTURA OBRIGATÓRIA DE SAÍDA (Não precisao usar exatamente estes subtítulos em Markdown):
+ESTRUTURA OBRIGATÓRIA DE SAÍDA (Não precisam usar exatamente estes subtítulos em Markdown):
 __Lembre-se que você está elaborando conteúdo para ser usado com Marketing__
 # Título SEO Otimizado
 
@@ -68,12 +71,12 @@ __Lembre-se que você está elaborando conteúdo para ser usado com Marketing__
 - Síntese com posicionamento forte.
 - Gere reflexão ou senso de urgência.
 
-{"## Chamada para Ação\n- Crie um CTA forte, específico e direcionado." if data.include_cta else ""}
+{cta_section}
 
-{"## Hashtags\n- Liste hashtags estratégicas e relevantes (Mínimo 5 Hashtags e no Máximo 10)." if data.include_hashtags else ""}
+{hashtags_section}
 
 Regras adicionais:
-{"Use emojis com moderação estratégica." if data.include_emojis else "Não use emojis."}
+{emoji_rule}
 Evite clichês.
 Evite generalizações vagas.
 Evite texto excessivamente genérico.
