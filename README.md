@@ -6,7 +6,12 @@ Motor estratégico de geração de conteúdo com arquitetura modular, controle e
 <p align="center">
   <img src="src/images/initial_picture.png" width="1200">
 </p>
-Deploy: [INSERIR LINK AQUI]
+
+<p align="center">
+  <a href="https://marketing-ai-engine-ia.streamlit.app/" target="_blank">
+    <img src="https://img.shields.io/badge/▶️%20Abrir%20Aplicação-Streamlit-red?style=for-the-badge">
+  </a>
+</p>
 
 ---
 
