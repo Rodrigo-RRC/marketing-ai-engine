@@ -1,85 +1,116 @@
+"""
+Prompt builder module.
+"""
+
 from models.request_model import ContentRequest
+
 
 def build_content_prompt(data: ContentRequest) -> str:
     """
-    Build structured and strategic marketing prompt.
+    Build strategic marketing prompt with flexible structure.
     """
 
     primary_keyword = data.keywords if data.keywords else data.topic
 
     cta_section = ""
     if data.include_cta:
-        cta_section = "## Chamada para Ação\n- Crie um CTA forte, específico e direcionado."
+        cta_section = """
+Inclua uma chamada para ação clara e estratégica ao final do conteúdo,
+orientando o leitor para um próximo passo lógico.
+"""
 
     hashtags_section = ""
     if data.include_hashtags:
-        hashtags_section = "## Hashtags\n- Liste hashtags estratégicas e relevantes (Mínimo 5 Hashtags e no Máximo 10)."
+        hashtags_section = """
+Ao final do conteúdo, inclua entre 5 e 10 hashtags relevantes e estratégicas
+relacionadas ao tema e à plataforma.
+"""
 
-    emoji_rule = "Use emojis com moderação estratégica." if data.include_emojis else "Não use emojis."
+    emoji_rule = (
+        "Use emojis com moderação estratégica quando fizer sentido para a plataforma."
+        if data.include_emojis
+        else "Não utilize emojis."
+    )
 
     return f"""
-Objetivo:
-Criar conteúdo estratégico, persuasivo e otimizado para SEO sobre "{data.topic}".
+TEMA PRINCIPAL
+{data.topic}
 
-Contexto:
-- Plataforma: {data.platform}
-- Tom: {data.tone}
-- Público-alvo: {data.audience}
-- Tamanho: {data.length}
+CONTEXTO DO CONTEÚDO
+
+Plataforma: {data.platform}
+Tom de comunicação: {data.tone}
+Público-alvo: {data.audience}
+Tamanho desejado: {data.length}
 
 Palavra-chave principal:
 {primary_keyword}
 
-Objetivo Estratégico:
+Objetivo estratégico do conteúdo:
 {data.strategic_goal}
 
-Adapte o conteúdo para cumprir esse objetivo:
-- Autoridade → enfatize domínio técnico, profundidade e dados.
-- Conversão → priorize persuasão, urgência e benefício claro.
-- Engajamento → maximize identificação emocional.
-- Educação de Mercado → explique conceitos com clareza e didática.
+ADAPTAÇÃO DE TOM
 
-Obrigatório:
-- Linguagem técnica e assertiva.
-- Utilize dados amplamente reconhecidos quando forem consenso público.
-- Quando usar números, priorize estatísticas consolidadas e não especulativas.
-- Caso não haja dado confiável, use linguagem qualitativa estratégica.
-- Não estabeleça relações causais sem base explícita.
-- Alta densidade informativa.
+O estilo do texto deve respeitar o tom selecionado:
 
-ESTRUTURA OBRIGATÓRIA DE SAÍDA (Não precisam usar exatamente estes subtítulos em Markdown):
-__Lembre-se que você está elaborando conteúdo para ser usado com Marketing__
-# Título SEO Otimizado
+Informativo:
+foco em clareza, explicação objetiva e autoridade técnica.
 
-## Introdução
-- Inicie com dado, tensão ou promessa forte.
-- Integre a palavra-chave no primeiro parágrafo.
+Inspirador:
+linguagem mais envolvente, motivacional e emocional.
 
-## Contextualização Estratégica
-- Explique relevância atual.
-- Mostre impacto concreto.
-- Demonstre autoridade.
+Formal:
+estilo mais institucional, analítico e profissional.
 
-## Desenvolvimento Profundo
-- Argumentação estruturada.
-- Técnicas reais de persuasão.
-- Evite superficialidade.
+DIRETRIZES DE QUALIDADE
 
-## Aplicação Prática
-- Ações concretas e executáveis.
-- Valor prático claro.
+• Escreva como um especialista no tema.  
+• Desenvolva ideias com profundidade.  
+• Evite superficialidade e frases genéricas.  
+• Priorize clareza, coerência e densidade informativa.  
 
-## Conclusão Estratégica
-- Síntese com posicionamento forte.
-- Gere reflexão ou senso de urgência.
+Sempre que possível:
+
+• utilize dados amplamente reconhecidos  
+• mencione instituições ou fontes confiáveis  
+• evite afirmações sem fundamento claro  
+
+ESTRUTURA DO CONTEÚDO
+
+O conteúdo deve possuir:
+
+• um título forte e claro  
+• subtítulos naturais ao longo do texto  
+• parágrafos bem desenvolvidos  
+• progressão lógica das ideias  
+
+A organização pode incluir, quando fizer sentido:
+
+introdução do tema  
+contextualização e relevância  
+explicações ou análises aprofundadas  
+exemplos ou aplicações práticas  
+reflexões ou recomendações finais  
+
+Evite estruturas rígidas ou previsíveis.
+
+SEO
+
+Utilize a palavra-chave principal de forma natural ao longo do texto.
+Evite repetição artificial.
+
+DIRETRIZES ADICIONAIS
+
+{emoji_rule}
+
+Evite:
+
+• clichês  
+• generalizações vagas  
+• conteúdo superficial  
+• repetição excessiva  
 
 {cta_section}
 
 {hashtags_section}
-
-Regras adicionais:
-{emoji_rule}
-Evite clichês.
-Evite generalizações vagas.
-Evite texto excessivamente genérico.
 """

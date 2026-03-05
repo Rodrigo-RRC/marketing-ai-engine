@@ -30,7 +30,8 @@ def generate_content(llm: ChatGroq, prompt: str) -> str:
 
             1. Nunca produza conteúdo superficial.
             2. Sempre desenvolva argumentos com profundidade.
-            3. Estruture o texto com subtítulos claros em Markdown.
+            3. Estruture o texto com um título forte, subtítulos claros e parágrafos bem desenvolvidos.
+               Não utilize marcação técnica como Markdown, HTML ou qualquer sintaxe de formatação.
             4. Integre palavras-chave naturalmente.
             5. Aplique técnicas reais de persuasão implicitamente, sem mencioná-las ou explicá-las.
             6. Evite frases genéricas como “você já parou para pensar”.
