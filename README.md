@@ -8,7 +8,7 @@ Motor estratégico de geração de conteúdo com arquitetura modular, controle e
 </p>
 
 <p align="left">
-  <a href="https://marketing-ai-engine-ia.streamlit.app/" target="_blank">
+  <a href="https://marketing-ai-engine-ia.streamlit.app/">
     <img src="https://img.shields.io/badge/▶️%20Abrir%20Aplicação-Streamlit-red?style=for-the-badge">
   </a>
 </p>
