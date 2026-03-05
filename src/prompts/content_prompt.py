@@ -1,3 +1,5 @@
+from models.request_model import ContentRequest
+
 def build_content_prompt(data: ContentRequest) -> str:
     """
     Build structured and strategic marketing prompt.
