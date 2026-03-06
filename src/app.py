@@ -8,7 +8,6 @@ sys.path.append(os.path.dirname(os.path.abspath(__file__)))
 
 
 import streamlit as st
-st.write("APP INICIADO")
 
 from dotenv import load_dotenv
 
