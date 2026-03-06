@@ -7,6 +7,7 @@ Motor estratégico de geração de conteúdo com arquitetura modular, controle e
   <img src="src/images/initial_picture.png" width="1200">
 </p>
 
+## Para adquirir um chave API em GROQ:
 <p align="left">
   <a href="https://marketing-ai-engine-ia.streamlit.app/">
     <img src="https://img.shields.io/badge/▶️%20Abrir%20Aplicação-Streamlit-red?style=for-the-badge">
