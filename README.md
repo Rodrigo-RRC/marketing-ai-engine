@@ -15,7 +15,7 @@ Motor estratégico de geração de conteúdo com arquitetura modular, controle e
  - Crie a Chave API
  - Ir para: https://console.groq.com/docs/rate-limits
  - Escolher: Free Plan Limits
- - Modelo: ## __llama-3.3-70b-versatile__ (OBS: Pode sofrer alterações)
+ - Modelo: __llama-3.3-70b-versatile__ (OBS: Pode sofrer alterações)
  - Clique logo abaixo, coloque a chave API no local indicado e pressione Enter
  - Divirta-se!!!
 
