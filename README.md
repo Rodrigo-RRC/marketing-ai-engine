@@ -8,9 +8,10 @@ Motor estratégico de geração de conteúdo com arquitetura modular, controle e
 </p>
 
 ## Para criar um chave API em GROQ:
+ - Acesse: https://console.groq.com/
+ - Cadastre-se
  - Para abrir a janela em outra aba pressione CTRL e clique no link
  - Acesse: https://console.groq.com/keys
- - Cadastre-se
  - Ir para: https://console.groq.com/docs/rate-limits
  - Escolher: Free Plan Limits
  - Modelo: llama-3.3-70b-versatile (OBS: Pode sofrer alterações)
