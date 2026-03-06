@@ -12,6 +12,7 @@ Motor estratégico de geração de conteúdo com arquitetura modular, controle e
  - Acesse: https://console.groq.com/
  - Cadastre-se
  - Acesse: https://console.groq.com/keys
+ - Crie a Chave API
  - Ir para: https://console.groq.com/docs/rate-limits
  - Escolher: Free Plan Limits
  - Modelo: llama-3.3-70b-versatile (OBS: Pode sofrer alterações)
