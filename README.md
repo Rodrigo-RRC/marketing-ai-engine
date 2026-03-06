@@ -7,7 +7,16 @@ Motor estratégico de geração de conteúdo com arquitetura modular, controle e
   <img src="src/images/initial_picture.png" width="1200">
 </p>
 
-## Para adquirir um chave API em GROQ:
+## Para criar um chave API em GROQ:
+ - Para abrir a janela em outra aba pressione CTRL e clique no link
+ - Acesse: https://console.groq.com/keys
+ - Cadastre-se
+ - Ir para: https://console.groq.com/docs/rate-limits
+ - Escolher: Free Plan Limits
+ - Modelo: llama-3.3-70b-versatile (OBS: Pode sofrer alterações)
+ - Clique logo abaixo, coloque a chave API no local indicado e pressione Enter
+ - Divirta-se!!!
+
 <p align="left">
   <a href="https://marketing-ai-engine-ia.streamlit.app/">
     <img src="https://img.shields.io/badge/▶️%20Abrir%20Aplicação-Streamlit-red?style=for-the-badge">
