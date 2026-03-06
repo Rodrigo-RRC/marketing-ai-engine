@@ -8,9 +8,9 @@ Motor estratégico de geração de conteúdo com arquitetura modular, controle e
 </p>
 
 ## Para criar um chave API em GROQ:
+ - IMPORTANTE: Para abrir a janela em outra aba pressione __CTRL__ e clique no __link__
  - Acesse: https://console.groq.com/
  - Cadastre-se
- - Para abrir a janela em outra aba pressione CTRL e clique no link
  - Acesse: https://console.groq.com/keys
  - Ir para: https://console.groq.com/docs/rate-limits
  - Escolher: Free Plan Limits
